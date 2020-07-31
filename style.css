@@ -1,0 +1,361 @@
+*{
+ box-sizing:border-box ;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;  
+  }
+  .top-nav{
+    max-width: 118;  
+    margin: 0 auto;
+  }
+  .nav-list{
+    float: right;
+    margin-top: 60px;
+
+
+  }
+.nav-list li{
+    display: inline-block;
+    list-style: none;
+    margin-left:40px ;
+}
+.nav-list li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.nav-list li a:hover{
+    color: blue;
+}  
+
+
+
+  #showcase .container{
+    width:80% ;
+    margin: auto;
+    overflow: hidden
+}
+#showcase{
+    min-height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0,.5),rgba(0,0,0,.5)),url("/image/profile.jpg")0;
+    background-size: cover;
+    background-position: center center;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+
+
+}
+#showcase h1{
+padding-top:220px;
+font-size:50px ;
+margin-bottom: 10px
+}
+#showcase p{
+font-size: 20px;
+}
+#logo{
+    position: absolute; 
+    width: 120px;
+    top: 20px;
+    left:20px ;
+     
+}
+a.btn{display: inline-block;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    margin: 40px 0;
+    color: rgb(14, 172, 224);
+    font-size: 24px;
+    margin-left:10px ;
+    text-decoration:none ;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing:3px ;
+    -webkit-box-reflect:below 1px line-gradiet(transparent,#0005)
+    
+    }
+
+    a.btn:hover{
+        background: aqua;
+        color: #050001;
+        box-shadow:0 0 5px #03e9f4, 0 0 25px, #03e9f4
+        
+}
+a.btn span{
+position: absolute;
+display: block;
+}
+a.btn span:nth-child(2){
+    bottom: -100;
+    left: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation:animate4 is linear infinite;
+     animation-delay:5s
+}
+
+@keyframes animate4{
+    0%{
+    bottom: -100%;
+}
+    50% ,100%{
+        bottom:100%;
+    }
+    
+}
+#newsletter.container{
+    width:80% ;
+    margin: auto;
+    overflow: hidden;
+}
+#newsletter{
+    padding: 15px;
+    color: #fff;
+    background:#35424a; 
+    height: 80px;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top:20px ;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 38px;
+    width:250px;
+    }
+ .button_1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 10px;
+    padding-right:15px;
+    color: cornsilk;
+ } 
+ .shop{
+    background-color: #1e2225;
+    font-family: nike comat stencil;
+    color: cornsilk;
+    text-align:center ;   
+}
+
+#about .container{
+ display: flex;  
+ align-items: center; 
+ justify-content: center;
+}
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.about-heading h1{
+font-size: 8rem;
+opacity: .4;
+
+}
+.about-heading h6{
+font-size: 2rem;
+font-weight: 300;
+}
+.about-details{
+  flex: 1;  
+}
+#profile img{
+    flex: 1;
+    margin-right: 5rem;
+    width: 600px;
+    
+}
+#services{
+color: #fff;
+text-align: center;
+font-family: nike combat stencil;
+background: #1e2225;
+padding-top: 20px;
+margin-bottom: 0;
+
+}
+.services{
+    display: flex;
+    background: #1e2225;
+    padding: 50px 0 20px 0;
+    color: #fff;
+}
+.box h6{
+font-size: 18px;
+
+}
+.box p{
+color: rgba(218, 211, 211, 8);
+font-size: 15px;
+
+}
+ h2{
+     font-size: xx-large;
+     text-align: center;
+     margin-top: 60px;
+ }
+ hr{
+     border-top: 2px solid lightgray;
+     width: 70%;
+ }
+.grid-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    flex: 1 1 100%;
+    padding: .5rem;
+}
+.item-inner{
+    background-size: cover;
+    background-image: url("image/9.jpg");
+    padding-top: calc(100% / (16 / 9));
+    height: 400px;
+
+}
+.item:nth-child(2) .item-inner{
+    background-image: url("image/r1.jpg")
+}
+.item:nth-child(3) .item-inner{
+    background-image: url("image/r2.jpg")
+}
+.item:nth-child(4) .item-inner{
+    background-image: url("image/r3.jpg")
+}
+.item:nth-child(5) .item-inner{
+    background-image: url("image/r4.jpg")
+}
+.item:nth-child(6) .item-inner{
+    background-image: url("image/r5.jpg")
+}
+.item:nth-child(7) .item-inner{
+    background-image: url("image/r6.jpg")
+}
+
+.item:nth-child(8) .item-inner{
+    background-image: url("image/r7.jpg")
+}
+
+.item:nth-child(9) .item-inner{
+    background-image: url("image/r8.jpg")
+}
+
+.item:nth-child(10) .item-inner{
+    background-image: url("image/r9.jpg")
+}
+
+.item:nth-child(11) .item-inner{
+    background-image: url("image/r10.jpg")
+}
+.item:nth-child(12) .item-inner{
+    background-image: url("image/r11.jpg")
+}
+
+@media screen and (min-width:480px){
+    .item{
+        flex: 1 1 50%
+
+    }
+ }
+ @media screen and (min-width:768px){
+    .item{
+        flex: 1 1 33.3%
+
+    }
+ }
+ @media screen and (min-width:980px){
+    .item{
+        flex: 1 1 25%
+
+    }
+    .profile{
+        width: 400px;
+        height: 420px;
+        overflow: hidden;
+        margin: 20px 20px 30px 20px;
+    }
+    profile img{
+        width: 400px;
+        height: 420px;
+        transition: 1s;
+    }
+    .profile img:hover{
+transform: scale(1.2);
+    }
+    .name{
+background: #000;
+position: absolute;
+width: 195px;
+height: 50px;
+margin-top: -70px;
+color: rgb(109, 30, 235);
+
+}
+.name h3{
+font-family: nike combat stencil;
+letter-spacing: 1px;
+margin-top: 5px;
+font-size: 1.4rem;
+padding-left: 5px;
+}
+.name p{
+font-size:14px ;
+margin-top: -12px;
+padding-left: 5px;
+}
+footer{
+    padding:20px;
+    color:#fff;
+    background:#000005 ;
+}
+.contact{
+    display: flex;
+}
+input[type="text"]{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color:#fff;
+}
+.inputbox{
+    margin-top: 30px;
+
+}
+.input[type="submit"]{
+    border: none;
+    padding: 7px 30px;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-top: 50px;
+    transition: .5s;
+}
+.input[type="submit"]:hover{
+    background: #0066ff;
+    color: #fff;
+}
+.last{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 80PX;
+}
+.last p{
+  padding-top: 40px;  
+}
